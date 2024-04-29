@@ -1,0 +1,207 @@
+body{
+	background-image:url("../imagenes/fondo.jpg");
+	color:#070707;
+	font-family: "Lucida Console","Courier New", monospace;
+	font-size:40px;
+	}
+p{
+	text-align:center;
+	font-size:20px;
+}
+hr{
+	border:3px solid #070707;
+	border-radius: 5px;
+	width:80%;
+}
+/*aqui me quede*/
+table,tr,td{
+	border: 1px solid #000000;
+	border-spacing:opx #9792E7;
+	background-color:#9792E7;
+	text-align:center;
+	font-size:20px;
+}
+ul{
+	list-style-type:disc;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:mifuente;
+	src:url(../fonts/ACaslonPro-Bold.otf);
+}
+@font-face{
+	font-family:mifuente2;
+	src:url(../fonts/ACaslonPro-BoldItalic.otf);
+}
+.pie{
+	font-family:mifuente2;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+.encabezado{
+	font-family:mifuente2;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+.img-marquee{
+	height:400px;
+	width:400px;
+	border-radius:10%;
+}
+.img-control{
+	height:50px;
+	width:50px;
+}
+.im-producto{
+	height:400px;
+	width:400px;
+	border-radius:10%;
+}
+*{
+	margin:0px;
+}
+div#top{
+	font-family:mifuente2;
+	padding:30px;
+	width:100%;
+	height:60px;
+	/*background-color:#C5B5F3;*/
+	/*background-image:linear-gradient(#CB86FA,#DFB8FA);*/
+	background-image:radial-gradient(#7958B5,#AF93DF);
+	/*background-image:url("../imagenes/imagen1.jpg");*/
+	/*background-image:url("../imagenes/imagen1.jpg");*/
+	/*background-repeat:no-repeat;*/
+}
+div#piediv{
+	font-family:mifuente;
+	padding:20px;
+	width:100%;
+	height:80px;
+	/*background-color:#C5B5F3;*/
+	/*background-image:linear-gradient(#CB86FA,#DFB8FA);*/
+	background-image:radial-gradient(#7958B5,#AF93DF );
+	/*background-image:url("../imagenes/imagen1.jpg");*/
+	/*background-image:url("../imagenes/imagen1.jpg");*/
+	/*background-repeat:no-repeat;*/
+}
+
+div#principal{
+	font-family:mifuente2;
+	width:95%;
+	background-image:radial-gradient(#FFFFFF,#DFB8FA);
+}
+.caja{
+	height:300;
+	width:250;
+	background:#7958B5;
+	border:1px solid #2136EA;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width: 600px;
+    margin:auto;
+    /*Hace que el padding y el border pasen a formar
+    parte del calculo de la caja y no de la suma */
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    /*Hace que el navegador oculte
+    todos los contenidos que salen del div*/
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    /*La nueva Posicion del elemento en relacioncion de
+    un elemento con su posicion normal*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    /*Hace que un elemento se coloque
+    respecto a su contenedor posicionado
+    mas cercano*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    /*Ayuda a colocar las caja como si
+    fueran celdas de tablas*/
+    display: flex;
+    align-items: center;
+    /*Distribuye el espacion entre los
+    objetos y su alrededor*/
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.descripcion{
+	height:110px;
+	width:400px;
+	background:#FFF;
+	color:black;
+	font-size:15px;
+}
+a:link{
+	text-decoration:none;
+}
+
